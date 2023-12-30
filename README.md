@@ -1,37 +1,43 @@
-# DISTANCE-BETWEEN-TWO-POINTS
+# Circulate-the-values-of-N-variables
+# Aim:
+To write a python program to circulate the n variables using function concept
 
-## AIM:
-To write a python program to find the distance two 2 points
-## ALGORITHM:
-### Step 1:
-Start the program
-### Step 2: 
-Assign values for the variables x2,x1,y2,y1.
-### Step 3: 
-Substitute the values in the distance formula  ![formula](/formula.JPG)
-### Step 4: 
-Print the distance using format to display the answer with two decimal points.
-### Step 5: 
-End the program.
+# Equipment’s required:
+PC Anaconda - Python 3.7
 
-### PROGRAM:
+# Algorithm:
+# Step 1:
+defind a function with a name called circulate
+
+# Step 2:
+assign a variable for circulatethe n variable
+
+# Step 3:
+Get the value from the user for the number of rotation
+
+# Step 4:
+Using the slicing concept rotate the list
+
+# Step 5:
+print the circulate value
+
+# Step 6:
+end of the program
+
+# Program:
+#Program to circulate N values.
+#Developed by: SURYAMALARV
+#RegisterNumber:23013656
 ```
-#Program to find the distance between two points.
-#Developed by: suryamalarv
-#RegisterNumber: 23013656
-import math
-l2=[10,6]
-l1=[4,2]
-distance=math.sqrt(((l2[0]-l1[0])**2)+((l2[1]-l1[1])**2))
-print("{:.2f}".format(distance))
-
+def circulate():
+    b=a[n:]+a[:n]
+    print("After circulating the values are:",b)
+a=eval(input())
+n=int(input())
 ```
-  
-
-## OUTPUT
-![OUTPUT](distance..png)
+# Output:
+![image](https://github.com/suryamalarv/Circulate-the-values-of-N-variables/assets/145742486/d53bd83d-db9c-4c04-aba8-8fdd0034da42)
 
 
-
-### RESULT:
-completed successfully!
+# Result:
+the expected result is achieved successfully
